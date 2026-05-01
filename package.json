@@ -1,0 +1,19 @@
+{
+  "name": "@seeron6/forge-auth",
+  "version": "0.1.0",
+  "description": "OAuth, SAML, magic links, sessions, and step-up flows.",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'no tests yet' && exit 0"
+  },
+  "keywords": [
+    "forge",
+    "framework",
+    "auth",
+    "node",
+    "postgres",
+    "redis"
+  ],
+  "license": "MIT"
+}
