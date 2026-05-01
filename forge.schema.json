@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "sections": [
+    {
+      "key": "features",
+      "label": "Feature toggles",
+      "fields": [
+        {
+          "key": "oauth.enabled",
+          "type": "boolean",
+          "label": "Enable OAuth",
+          "default": true
+        },
+        {
+          "key": "saml.enabled",
+          "type": "boolean",
+          "label": "Enable SAML",
+          "default": true
+        },
+        {
+          "key": "magic.enabled",
+          "type": "boolean",
+          "label": "Enable Magic links",
+          "default": true
+        },
+        {
+          "key": "stepup.enabled",
+          "type": "boolean",
+          "label": "Enable Step-up MFA",
+          "default": true
+        }
+      ]
+    },
+    {
+      "key": "theming",
+      "label": "Branding",
+      "fields": [
+        {
+          "key": "brand_name",
+          "type": "string",
+          "label": "Product name",
+          "default": ""
+        },
+        {
+          "key": "brand_color",
+          "type": "color",
+          "label": "Primary brand colour",
+          "default": "#ff6b1f"
+        }
+      ]
+    }
+  ]
+}
