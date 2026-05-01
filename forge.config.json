@@ -1,0 +1,21 @@
+{
+  "forge_version": "1",
+  "slug": "auth-canonical",
+  "category": "identity",
+  "name": "Auth & Sessions",
+  "description": "The auth layer you keep rewriting. OAuth providers, SAML for enterprise, passwordless magic links, durable sessions, and a step-up MFA flow that doesn't make users hate you.",
+  "parent_id": null,
+  "is_base": true,
+  "stack": {
+    "language": "node",
+    "framework": "postgres",
+    "runtime": "node"
+  },
+  "connectors": [
+    "oauth",
+    "saml",
+    "magic",
+    "stepup"
+  ],
+  "config_schema_version": "1.0.0"
+}
